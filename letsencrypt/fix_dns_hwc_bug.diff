@@ -1,0 +1,18 @@
+diff ~/.local/pipx/venvs/certbot/lib/python3.6/site-packages/certbot_dns_openstack/dns_openstack.py dns_openstack.py
+23c23,25
+<
+---
+> # HACKING
+> import openstack
+> openstack.enable_logging(http_debug=True)
+61a64,69
+>
+>         # HACKING
+>         print(validation_name)
+>         print([validation])
+>         #exit(0)
+>
+63c71
+<             self.zone['id'], validation_name + '.', "TXT", [validation])
+---
+>             self.zone['id'], validation_name + '.' , "TXT", ['"' + validation + '"'])
