@@ -3,18 +3,6 @@
 # Documentação sobre parametrização da autenticação do OpenStackClient para HuaweiCloud se encontra em:
 ## https://support.huaweicloud.com/en-us/devg-sdk_cli/en-us_topic_0070637155.html
 
-
-#### Não é necessário editar esta seção
-export CLIFF_FIT_WIDTH=1 # faz o OpenStackClient ajustar automaticamente a formatação de tabelas para largura do terminal
-
-export NOVA_ENDPOINT_TYPE=publicURL 
-export OS_ENDPOINT_TYPE=publicURL 
-export CINDER_ENDPOINT_TYPE=publicURL 
-export OS_VOLUME_API_VERSION=2 
-export OS_IDENTITY_API_VERSION=3 
-export OS_IMAGE_API_VERSION=2
-
-# variáveis personalizadas
 # Ajuste sua região padrão
 export HWC_DEFAULT_REGION="la-south-2"
 # A listagem de códigos das regiões está disponível em https://developer.huaweicloud.com/intl/en-us/endpoint
@@ -50,6 +38,15 @@ export OS_PASSWORD="sua senha aqui"
 export OS_ACCESS_KEY=ABCDEFGH
 export OS_SECRET_KEY=MuitosCaracteresMisturados
 
+#### Não é necessário editar daqui para baixo #######
+export CLIFF_FIT_WIDTH=1 # faz o OpenStackClient ajustar automaticamente a formatação de tabelas para largura do terminal
+
+export NOVA_ENDPOINT_TYPE=publicURL 
+export OS_ENDPOINT_TYPE=publicURL 
+export CINDER_ENDPOINT_TYPE=publicURL 
+export OS_VOLUME_API_VERSION=2 
+export OS_IDENTITY_API_VERSION=3 
+export OS_IMAGE_API_VERSION=2
 
 ## Variáveis para NÃO serem usadas:
 #### OS_REGION_NAME: ao utilizar gera problema de compatibilidade entre OpenStackClient e HuaweiCloud
