@@ -4,7 +4,7 @@
 ## https://support.huaweicloud.com/en-us/devg-sdk_cli/en-us_topic_0070637155.html
 
 # Ajuste sua região padrão
-export HWC_DEFAULT_REGION="la-south-2"
+export HWC_DEFAULT_REGION="sa-brazil-1"
 # A listagem de códigos das regiões está disponível em https://developer.huaweicloud.com/intl/en-us/endpoint
 # Você pode alterar temporariamente a região executando no Shell: 
 ### export HWC_REGION=codigo-da-regiao
